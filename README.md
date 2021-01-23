@@ -16,7 +16,6 @@ Students will work with tableviews, learn about computed properties, and impleme
 ![Screen Shot 2021-01-07 at 9 43 20 PM](https://user-images.githubusercontent.com/57606580/105571259-531bec00-5d14-11eb-950e-1786ed671b3f.png)
 ![Screen Shot 2021-01-07 at 9 50 31 PM](https://user-images.githubusercontent.com/57606580/105571260-544d1900-5d14-11eb-834c-39d6fd174690.png)
 
-
 ## DaysOfWeekByLee
 It was the second app we built at DevMountain. It was simple app to display day of the week using xCode and UIViewController to build it.
 
@@ -50,9 +49,11 @@ Bookshelf application. was the first assessment app at DevMountain. The bookshel
 * Creation of custom model classes
 * The role and use of Segues
 
+![Screen Shot 2021-01-23 at 1 26 20 AM](https://user-images.githubusercontent.com/57606580/105572034-3da9c080-5d1a-11eb-8ff5-96b3e6edb0cb.png)
+![Screen Shot 2021-01-23 at 1 26 11 AM](https://user-images.githubusercontent.com/57606580/105572035-3e425700-5d1a-11eb-8011-8dcf767a72ce.png)
+
 ## WatchList
 The show application that user can add show name on TextFild and populated data on tableViewController. Learning how to use CRUD Method. Model, View, Controller by using JSONFile persistence store.
-
 
 ## WatchListCoreDataiOS
 The show application that user can add show name on TextFild and populated data on tableViewController. Learning how to use CRUD Method. Model, View, Controller by using coreData.
@@ -60,9 +61,6 @@ The show application that user can add show name on TextFild and populated data 
 ## ReviewAppForTheWeek
 The app for reviews the concept of tableViewController section, row, delegate and dataSource.
 
-
-## Solar System
- 
  ### @iOS App Development Bootcamp at Dev Mountain
 Over 13 demanding weeks in our iOS development bootcamp you’ll find out what it means to be an app developer. Using tools like Github and Xcode to collaborate, and languages like Objective-C and Swift to create, you’ll prepare for a career in tech. At the end of the course, students work with Software QA and UX Design students to create an app for Apple products.
  
