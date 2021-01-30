@@ -65,8 +65,8 @@ The app for reviews the concept of tableViewController section, row, delegate an
 ## ArtistSearch
 The app for searching artist name and twitter. It use the API provided by https://developer.musixmatch.com. Empower apps with the world’s largest lyrics database with more than 14 million lyrics in over 50 distinct languages. This app is for reviewing Networking request. We learn how to struct model for JSON, using URLSession to fetch data from the API.
 
-## MarvelAPI
-The app for searching the marvel and the comics that the marvel appear. Calling API from this app is very trick. It needs authentication and also set up in the info.plist on xCode for some security reasons.
+## MarvelDeck
+The app for searching the marvel and the comics that the marvel appear. MarvelDeck requires networking that provided by https://developer.marvel.com/docs. Calling API from this app is very tricky. It needs authentication and also set up in the info.plist on xCode for some security reasons.
 
 ![Screen Shot 2021-01-30 at 1 22 40 PM](https://user-images.githubusercontent.com/57606580/106366670-1ac37180-6303-11eb-922d-bffef0120ce5.png)
 
