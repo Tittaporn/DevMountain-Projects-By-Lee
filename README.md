@@ -65,6 +65,11 @@ The app for reviews the concept of tableViewController section, row, delegate an
 ## ArtistSearch
 The app for searching artist name and twitter. It use the API provided by https://developer.musixmatch.com. Empower apps with the world’s largest lyrics database with more than 14 million lyrics in over 50 distinct languages. This app is for reviewing Networking request. We learn how to struct model for JSON, using URLSession to fetch data from the API.
 
+## MarvelAPI
+The app for searching the marvel and the comics that the marvel appear. Calling API from this app is very trick. It needs authentication and also set up in the info.plist on xCode for some security reasons.
+
+![Screen Shot 2021-01-30 at 1 22 40 PM](https://user-images.githubusercontent.com/57606580/106366670-1ac37180-6303-11eb-922d-bffef0120ce5.png)
+
  ### @iOS App Development Bootcamp at Dev Mountain
 Over 13 demanding weeks in our iOS development bootcamp you’ll find out what it means to be an app developer. Using tools like Github and Xcode to collaborate, and languages like Objective-C and Swift to create, you’ll prepare for a career in tech. At the end of the course, students work with Software QA and UX Design students to create an app for Apple products.
  
