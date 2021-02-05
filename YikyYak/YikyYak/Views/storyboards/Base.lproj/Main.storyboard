@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UD7-vg-Fkk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Yak List Table View Controller-->
+        <scene sceneID="yxU-F8-DHx">
+            <objects>
+                <tableViewController id="J0e-hg-OB0" customClass="YakListTableViewController" customModule="YikyYak" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="140" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="psE-w8-h0Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="gray" indentationWidth="10" reuseIdentifier="yakCell" id="RKP-we-ifF" customClass="YakTableViewCell" customModule="YikyYak" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RKP-we-ifF" id="G61-Jm-Zi0">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Yak)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="qyv-xK-PDm">
+                                            <rect key="frame" x="40" y="41" width="254.5" height="58"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="TS4-lT-RnX">
+                                            <rect key="frame" x="314.5" y="18.5" width="54.5" height="103"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEV-e1-Upz">
+                                                    <rect key="frame" x="0.0" y="0.0" width="54.5" height="27.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="54.5" id="7io-W6-9QG"/>
+                                                    </constraints>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                    <state key="normal" image="chevron.up" catalog="system">
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="35"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="upVoteButtonTapped:" destination="RKP-we-ifF" eventType="touchUpInside" id="E7A-Yj-QyA"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ib-rL-VnP">
+                                                    <rect key="frame" x="0.0" y="39.5" width="54.5" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vac-8s-JTc">
+                                                    <rect key="frame" x="0.0" y="75.5" width="54.5" height="27.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="27.5" id="r3m-kg-h1N"/>
+                                                    </constraints>
+                                                    <color key="tintColor" systemColor="labelColor"/>
+                                                    <state key="normal" image="chevron.down" catalog="system">
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="35"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="downVoteButtonTapped:" destination="RKP-we-ifF" eventType="touchUpInside" id="ypN-10-qnw"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="5ib-rL-VnP" firstAttribute="centerY" secondItem="TS4-lT-RnX" secondAttribute="centerY" id="8t1-MS-tHW"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qyv-xK-PDm" firstAttribute="top" secondItem="G61-Jm-Zi0" secondAttribute="topMargin" constant="30" id="3Zv-dF-JzI"/>
+                                        <constraint firstItem="TS4-lT-RnX" firstAttribute="centerY" secondItem="G61-Jm-Zi0" secondAttribute="centerY" id="8EQ-5e-4sf"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="qyv-xK-PDm" secondAttribute="bottom" constant="30" id="I5b-lB-1id"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="TS4-lT-RnX" secondAttribute="trailing" constant="25" id="hA4-IW-IKj"/>
+                                        <constraint firstItem="TS4-lT-RnX" firstAttribute="leading" secondItem="qyv-xK-PDm" secondAttribute="trailing" constant="20" id="igT-2d-TiS"/>
+                                        <constraint firstItem="qyv-xK-PDm" firstAttribute="leading" secondItem="G61-Jm-Zi0" secondAttribute="leadingMargin" constant="20" id="pev-p8-RyJ"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="yakScoreLabel" destination="5ib-rL-VnP" id="Lk9-gu-BDy"/>
+                                    <outlet property="yakTextLabel" destination="qyv-xK-PDm" id="rG5-t1-olO"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="J0e-hg-OB0" id="K4h-hJ-GdS"/>
+                            <outlet property="delegate" destination="J0e-hg-OB0" id="DG2-2M-PhT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="gJ8-cN-5uk">
+                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="w9J-2m-tao">
+                            <connections>
+                                <action selector="refreshButtonTapped:" destination="J0e-hg-OB0" id="GU4-0e-j9o"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="pHi-FH-Ial">
+                            <connections>
+                                <action selector="createButtonTapped:" destination="J0e-hg-OB0" id="Yes-T3-2Bk"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uQZ-eE-Rk5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472.46376811594206" y="82.366071428571431"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WRw-U0-mQf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UD7-vg-Fkk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YDc-d7-m4n">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="J0e-hg-OB0" kind="relationship" relationship="rootViewController" id="69q-V0-mFf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hcs-6z-lDD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-437.68115942028987" y="82.366071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="72"/>
+        <image name="chevron.up" catalog="system" width="128" height="72"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

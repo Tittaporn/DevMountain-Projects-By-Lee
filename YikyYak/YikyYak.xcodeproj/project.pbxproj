@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364A56A325CCF4A000FB2190 /* YakListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A56A225CCF4A000FB2190 /* YakListTableViewController.swift */; };
+		364A56A925CCF54100FB2190 /* YakTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A56A825CCF54100FB2190 /* YakTableViewCell.swift */; };
+		3665309425CCCC5C00304002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665309325CCCC5C00304002 /* AppDelegate.swift */; };
+		3665309625CCCC5C00304002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3665309525CCCC5C00304002 /* SceneDelegate.swift */; };
+		3665309B25CCCC5C00304002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3665309925CCCC5C00304002 /* Main.storyboard */; };
+		3665309D25CCCC6A00304002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3665309C25CCCC6A00304002 /* Assets.xcassets */; };
+		366530A025CCCC6A00304002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3665309E25CCCC6A00304002 /* LaunchScreen.storyboard */; };
+		366530AB25CCCC6B00304002 /* YikyYakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366530AA25CCCC6B00304002 /* YikyYakTests.swift */; };
+		366530B625CCCC6B00304002 /* YikyYakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366530B525CCCC6B00304002 /* YikyYakUITests.swift */; };
+		366530D925CCCD7700304002 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366530D825CCCD7700304002 /* CloudKit.framework */; };
+		366530DB25CCCE7600304002 /* Yak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366530DA25CCCE7600304002 /* Yak.swift */; };
+		366530E025CCDB8C00304002 /* YakController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366530DF25CCDB8C00304002 /* YakController.swift */; };
+		366530E625CCDD4000304002 /* YakError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366530E525CCDD4000304002 /* YakError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		366530A725CCCC6B00304002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3665308825CCCC5C00304002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3665308F25CCCC5C00304002;
+			remoteInfo = YikyYak;
+		};
+		366530B225CCCC6B00304002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3665308825CCCC5C00304002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3665308F25CCCC5C00304002;
+			remoteInfo = YikyYak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364A56A225CCF4A000FB2190 /* YakListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakListTableViewController.swift; sourceTree = "<group>"; };
+		364A56A825CCF54100FB2190 /* YakTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakTableViewCell.swift; sourceTree = "<group>"; };
+		3665309025CCCC5C00304002 /* YikyYak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikyYak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3665309325CCCC5C00304002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3665309525CCCC5C00304002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3665309A25CCCC5C00304002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3665309C25CCCC6A00304002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3665309F25CCCC6A00304002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		366530A125CCCC6A00304002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366530A625CCCC6B00304002 /* YikyYakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikyYakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366530AA25CCCC6B00304002 /* YikyYakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikyYakTests.swift; sourceTree = "<group>"; };
+		366530AC25CCCC6B00304002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366530B125CCCC6B00304002 /* YikyYakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikyYakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366530B525CCCC6B00304002 /* YikyYakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YikyYakUITests.swift; sourceTree = "<group>"; };
+		366530B725CCCC6B00304002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366530D625CCCD6D00304002 /* YikyYak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YikyYak.entitlements; sourceTree = "<group>"; };
+		366530D825CCCD7700304002 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		366530DA25CCCE7600304002 /* Yak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yak.swift; sourceTree = "<group>"; };
+		366530DF25CCDB8C00304002 /* YakController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakController.swift; sourceTree = "<group>"; };
+		366530E525CCDD4000304002 /* YakError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3665308D25CCCC5C00304002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366530D925CCCD7700304002 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530A325CCCC6B00304002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530AE25CCCC6B00304002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364A56A725CCF52400FB2190 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				364A56A825CCF54100FB2190 /* YakTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3665308725CCCC5C00304002 = {
+			isa = PBXGroup;
+			children = (
+				3665309225CCCC5C00304002 /* YikyYak */,
+				366530A925CCCC6B00304002 /* YikyYakTests */,
+				366530B425CCCC6B00304002 /* YikyYakUITests */,
+				3665309125CCCC5C00304002 /* Products */,
+				366530D725CCCD7700304002 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3665309125CCCC5C00304002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3665309025CCCC5C00304002 /* YikyYak.app */,
+				366530A625CCCC6B00304002 /* YikyYakTests.xctest */,
+				366530B125CCCC6B00304002 /* YikyYakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3665309225CCCC5C00304002 /* YikyYak */ = {
+			isa = PBXGroup;
+			children = (
+				366530E425CCDCDE00304002 /* Helpers */,
+				366530D625CCCD6D00304002 /* YikyYak.entitlements */,
+				366530D325CCCD2300304002 /* Models */,
+				366530D125CCCD0600304002 /* Views */,
+				366530D225CCCD1500304002 /* Controllers */,
+				366530C625CCCC9000304002 /* Resources */,
+			);
+			path = YikyYak;
+			sourceTree = "<group>";
+		};
+		366530A925CCCC6B00304002 /* YikyYakTests */ = {
+			isa = PBXGroup;
+			children = (
+				366530AA25CCCC6B00304002 /* YikyYakTests.swift */,
+				366530AC25CCCC6B00304002 /* Info.plist */,
+			);
+			path = YikyYakTests;
+			sourceTree = "<group>";
+		};
+		366530B425CCCC6B00304002 /* YikyYakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				366530B525CCCC6B00304002 /* YikyYakUITests.swift */,
+				366530B725CCCC6B00304002 /* Info.plist */,
+			);
+			path = YikyYakUITests;
+			sourceTree = "<group>";
+		};
+		366530C625CCCC9000304002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3665309325CCCC5C00304002 /* AppDelegate.swift */,
+				3665309525CCCC5C00304002 /* SceneDelegate.swift */,
+				3665309C25CCCC6A00304002 /* Assets.xcassets */,
+				366530A125CCCC6A00304002 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		366530D025CCCCFA00304002 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3665309925CCCC5C00304002 /* Main.storyboard */,
+				3665309E25CCCC6A00304002 /* LaunchScreen.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		366530D125CCCD0600304002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				364A56A725CCF52400FB2190 /* CustomViews */,
+				366530D025CCCCFA00304002 /* storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		366530D225CCCD1500304002 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				366530D525CCCD4400304002 /* ViewControllers */,
+				366530D425CCCD3400304002 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		366530D325CCCD2300304002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				366530DA25CCCE7600304002 /* Yak.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		366530D425CCCD3400304002 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				366530DF25CCDB8C00304002 /* YakController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		366530D525CCCD4400304002 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				364A56A225CCF4A000FB2190 /* YakListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		366530D725CCCD7700304002 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				366530D825CCCD7700304002 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		366530E425CCDCDE00304002 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				366530E525CCDD4000304002 /* YakError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3665308F25CCCC5C00304002 /* YikyYak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366530BA25CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYak" */;
+			buildPhases = (
+				3665308C25CCCC5C00304002 /* Sources */,
+				3665308D25CCCC5C00304002 /* Frameworks */,
+				3665308E25CCCC5C00304002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YikyYak;
+			productName = YikyYak;
+			productReference = 3665309025CCCC5C00304002 /* YikyYak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		366530A525CCCC6B00304002 /* YikyYakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366530BD25CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYakTests" */;
+			buildPhases = (
+				366530A225CCCC6B00304002 /* Sources */,
+				366530A325CCCC6B00304002 /* Frameworks */,
+				366530A425CCCC6B00304002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366530A825CCCC6B00304002 /* PBXTargetDependency */,
+			);
+			name = YikyYakTests;
+			productName = YikyYakTests;
+			productReference = 366530A625CCCC6B00304002 /* YikyYakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		366530B025CCCC6B00304002 /* YikyYakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366530C025CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYakUITests" */;
+			buildPhases = (
+				366530AD25CCCC6B00304002 /* Sources */,
+				366530AE25CCCC6B00304002 /* Frameworks */,
+				366530AF25CCCC6B00304002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366530B325CCCC6B00304002 /* PBXTargetDependency */,
+			);
+			name = YikyYakUITests;
+			productName = YikyYakUITests;
+			productReference = 366530B125CCCC6B00304002 /* YikyYakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3665308825CCCC5C00304002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3665308F25CCCC5C00304002 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					366530A525CCCC6B00304002 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3665308F25CCCC5C00304002;
+					};
+					366530B025CCCC6B00304002 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3665308F25CCCC5C00304002;
+					};
+				};
+			};
+			buildConfigurationList = 3665308B25CCCC5C00304002 /* Build configuration list for PBXProject "YikyYak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3665308725CCCC5C00304002;
+			productRefGroup = 3665309125CCCC5C00304002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3665308F25CCCC5C00304002 /* YikyYak */,
+				366530A525CCCC6B00304002 /* YikyYakTests */,
+				366530B025CCCC6B00304002 /* YikyYakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3665308E25CCCC5C00304002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366530A025CCCC6A00304002 /* LaunchScreen.storyboard in Resources */,
+				3665309D25CCCC6A00304002 /* Assets.xcassets in Resources */,
+				3665309B25CCCC5C00304002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530A425CCCC6B00304002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530AF25CCCC6B00304002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3665308C25CCCC5C00304002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3665309425CCCC5C00304002 /* AppDelegate.swift in Sources */,
+				366530DB25CCCE7600304002 /* Yak.swift in Sources */,
+				3665309625CCCC5C00304002 /* SceneDelegate.swift in Sources */,
+				366530E025CCDB8C00304002 /* YakController.swift in Sources */,
+				364A56A925CCF54100FB2190 /* YakTableViewCell.swift in Sources */,
+				364A56A325CCF4A000FB2190 /* YakListTableViewController.swift in Sources */,
+				366530E625CCDD4000304002 /* YakError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530A225CCCC6B00304002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366530AB25CCCC6B00304002 /* YikyYakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366530AD25CCCC6B00304002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366530B625CCCC6B00304002 /* YikyYakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		366530A825CCCC6B00304002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3665308F25CCCC5C00304002 /* YikyYak */;
+			targetProxy = 366530A725CCCC6B00304002 /* PBXContainerItemProxy */;
+		};
+		366530B325CCCC6B00304002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3665308F25CCCC5C00304002 /* YikyYak */;
+			targetProxy = 366530B225CCCC6B00304002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3665309925CCCC5C00304002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3665309A25CCCC5C00304002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3665309E25CCCC6A00304002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3665309F25CCCC6A00304002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		366530B825CCCC6B00304002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		366530B925CCCC6B00304002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366530BB25CCCC6B00304002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YikyYak/YikyYak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYak/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366530BC25CCCC6B00304002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YikyYak/YikyYak.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYak/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		366530BE25CCCC6B00304002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikyYak.app/YikyYak";
+			};
+			name = Debug;
+		};
+		366530BF25CCCC6B00304002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikyYak.app/YikyYak";
+			};
+			name = Release;
+		};
+		366530C125CCCC6B00304002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YikyYak;
+			};
+			name = Debug;
+		};
+		366530C225CCCC6B00304002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L73M8R7276;
+				INFOPLIST_FILE = YikyYakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leemccormick.YikyYakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YikyYak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3665308B25CCCC5C00304002 /* Build configuration list for PBXProject "YikyYak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366530B825CCCC6B00304002 /* Debug */,
+				366530B925CCCC6B00304002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366530BA25CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366530BB25CCCC6B00304002 /* Debug */,
+				366530BC25CCCC6B00304002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366530BD25CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366530BE25CCCC6B00304002 /* Debug */,
+				366530BF25CCCC6B00304002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366530C025CCCC6B00304002 /* Build configuration list for PBXNativeTarget "YikyYakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366530C125CCCC6B00304002 /* Debug */,
+				366530C225CCCC6B00304002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3665308825CCCC5C00304002 /* Project object */;
+}
