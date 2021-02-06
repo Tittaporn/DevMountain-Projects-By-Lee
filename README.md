@@ -76,7 +76,7 @@ The app for searching the marvel and the comics that the marvel appear. MarvelDe
 ## YikyYak
 The app for posting quotes and author name. The user can post give a vote for each quote. The data on the app will get saved on the cloudKit. When the app open we are also fetching data and sorted it by votes. This app is foundation of using CloudKit, CKRecord, Create, Fetch, Update and Delete Database in the CloudKit.
 
-## Summit == Contact 
+## Summit == ContactPersistanceStore
 The contact app. It is an app for colecting contacts with name, lastname, phonenumber. User can use serch bar to search for spicific contact that save in the data persistance store. The app implement the concept of protocol and delegate to communicate between cell and tableView. It is also an example of using the protocol on the class in the model. 
 
  ### @iOS App Development Bootcamp at Dev Mountain
