@@ -25,6 +25,9 @@ Learning how to use swift language, using function, if-else statments to build t
 ## MovieByLee
 Using UITableViewController, NavigationBar, Segue. Learn how to populate data in the cell and send data between TableViewController and ViewController.
 
+## 3Summit == EventCoreData
+The app for create events using coreData, notifications, sections on tableViewController. The user can create an event with name and data time to attend. The events are classify to 2 types to eventsWillAttend and eventsWillNotAttend. This app also use the custom protocol delegate to communicate between tableViewCell and tableViewController.
+
 
 ## BookShelf
 Bookshelf application. was the first assessment app at DevMountain. The bookshelf should hold 6 books of your choosing.
