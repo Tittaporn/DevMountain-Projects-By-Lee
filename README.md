@@ -87,7 +87,7 @@ This is a demo project to show how to use CollectionView By Ryan.
 And Here is the link of Ryan Demo project about Collection View ==> CompositionalLayout
 https://github.com/RyanGreenburg/CompositionalLayoutDemo
 
-## Quiz EndGame
+## Quiz EndGame by Stan Lee Dennis, QuizTeam by Lee
 First team project at DevMountain with Stan and Dennis. It is a simple quiz about our team.
 
  ### @iOS App Development Bootcamp at Dev Mountain
